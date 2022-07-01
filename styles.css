@@ -1,0 +1,247 @@
+body {
+    background-color: rgb(0, 0, 0);
+    padding:0px;
+    margin:0px;
+}
+
+#lr-form-box {
+    height: 520px;
+    max-width: 400px;
+    min-width: 340px;
+    margin: 6% auto;
+    background-color: white;
+    position: relative;
+    padding: 3%;
+    overflow: hidden;
+    border-radius: 10px;
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#lr-button-box {
+    border-radius: 5px;
+    width: 100%;
+    margin: 5% auto;
+    position: relative;
+    height: 30px;
+    border: 2px solid black;
+
+
+}
+
+.lr-switch {
+    float: left;
+    height: 30px;
+    width: 50%;
+    border: 0px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+#lr-btn {
+    width: 50%;
+    position: absolute;
+    height: 30px;
+    transition: 1s;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+.lr-login-form {
+    position: absolute;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    transition: 1s;
+
+}
+
+.lr-input {
+    position: relative;
+    width: 98%;
+    padding: 5px 0;
+    margin: 5px 0;
+    border: 0px;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+}
+
+.lr-submit {
+    width: 70%;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    background-color: aqua;
+    background-image: linear-gradient(to right, red, yellow);
+    text-align: center;
+    font-weight: bold;
+}
+
+.lr-country-box {
+    width: 90%;
+    height: 25px;
+    margin-bottom: 30px;
+}
+
+#lr-fname {
+    width: 40%;
+}
+
+#lr-lname {
+    width: 40%;
+    float: right;
+    margin-right: 3%;
+}
+
+#lr-country {
+    position: absolute;
+    right: 0px;
+    width: 30%;
+    height: 25px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, red, yellow);
+    border: 0;
+    outline: none;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#lr-login {
+    left: 5%;
+}
+
+#lr-register {
+    left: 105%;
+}
+
+.g-recaptcha {
+    margin: 30px auto;
+    margin-left: 0;
+    width: 90%;
+}
+
+.lr-indicates {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.lr-country-box {
+    height: 30px;
+    margin-top: 5px;
+}
+
+#lr-country-txt {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#lr-mail-verification {
+    height: 35px;
+    border: none;
+    position: relative;
+}
+
+.lr-mail-first {
+    width: 70%;
+    position: absolute;
+}
+
+.lr-mail-second {
+    position: absolute;
+    right: 0;
+    width: 20%;
+    margin-top: 7px;
+    height: 25px;
+    background-image: linear-gradient(to right, red, yellow);
+    border: 0;
+    outline: none;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#lr-show-verified {
+    background: green;
+    height: 20px;
+}
+
+.lr-btn {
+    cursor: pointer;
+}
+
+#lr-dob {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    height: 25px;
+    background-image: linear-gradient(to right, red, yellow);
+    border: 0;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+#lr-dob-txt {
+    position: absolute;
+    width: 60%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.lr-loading-box {
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.loader {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    border: 3px solid green;
+    /* Light grey */
+    border-top: 3px solid transparent;
+    /* Blue */
+    border-radius: 50%;
+    visibility: hidden;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.verification-box {
+    height: 200px;
+    width: 90%;
+}
+#lr-mail-loader{
+    visibility: visible;
+}
+#lr-mail-loader-container{
+    background:none;
+}

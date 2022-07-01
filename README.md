@@ -2,7 +2,7 @@
 this is a complete login &amp; registration (with email &amp; GOOGLE Captcha verification) . Technologies HTML, CSS, JS, PHP, MYSQL, PHP Mailer Library, Google Captcha api
 
 
-##Configure db_config.php & mail_config.php
+##Configure db_config.php & mail_config.php index.php script.js
 
 ##db_config.php##
 change:
@@ -22,5 +22,12 @@ senderPassword
 mailSubject
 mailBody
 
+index.php
+change:
+site key of recaptchas
+
+script.js
+change: 
+secreat keys of recaptcha
 
 
